@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC  
+    "-//mybatis.org//DTD Config 3.0//EN"  
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- mybatis的配置 -->
+	<!-- 配置别名 -->
+	<!-- 这样SqlMapper中的paramType就不需要写全名，只需要使用别名 -->
+	<typeAliases>
+	<!--
+	<typeAlias type="liaody.mybatis.entity.UserInfo" alias="_UserInfo"/>
+	<typeAlias type="liaody.mybatis.entity.Clazz" alias="_Clazz"/>-->
+	</typeAliases>
+	<!-- mapper 的存放位置 -->
+	<mappers>
+		<!-- 		<mapper resource="liaody/mybatis/mapper/UserInfo-mapper.xml" />
+                <mapper resource="liaody/mybatis/mapper/Clazz-mapper.xml" />
+                <mapper resource="liaody/mybatis/mapper/Film-mapper.xml"></mapper>
+        mapper resource="liaody/mybatis/mapper/MusicBean-mapper.xml" />
+                <mapper resource="liaody/mybatis/mapper/MyOrder-mapper.xml" />
+                <mapper resource="liaody/mybatis/mapper/Classes-mapper.xml" />
+                <mapper resource="liaody/mybatis/mapper/CallProcedure-mapper.xml" /> -->
+	</mappers>
+</configuration>
